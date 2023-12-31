@@ -1,0 +1,19 @@
+ 
+
+ .home {
+    background-image: url('../../../assets/img/logo/toys.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 70%;
+    height: 100vh;
+}
+
+.home h1{
+color: var(--clr1);
+font-size: 7em;
+padding:1em;
+font-family: 'Courier New', Courier, monospace;
+}

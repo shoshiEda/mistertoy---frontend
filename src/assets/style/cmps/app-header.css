@@ -1,0 +1,33 @@
+.header-container {
+  display: flex;
+  background-color: var(--clr1);
+  color: var(--clr2);
+  padding: 1em;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+
+
+.app-header .app-nav a{
+  margin-right: 1em;
+  font-weight: bold;
+}
+
+
+.app-header .app-nav a:hover{
+  cursor: pointer;
+  color: aliceblue;
+  text-decoration: underline;
+  
+}
+
+
+
+
+/*@media(max-width: 720px) {
+  .app-header {
+    color: var(--clr2bg);
+  }
+}*/

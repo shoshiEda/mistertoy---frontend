@@ -1,0 +1,40 @@
+.toy-filter {
+    background-color: var(--clr2bg);
+    margin-left: 1em;
+
+}
+
+.toy-filter form {
+    display: grid;
+    grid-template-columns: 100px 200px;
+}
+
+.toy-filter button{
+    background-color:  var(--clr1bg);
+}
+
+.check-box{
+    grid-column: 1 / -1;
+
+}
+
+.sort{
+    margin: 0.5em;
+    background-color: var(--clr1bg);
+    padding: 0.3em;
+    border-radius: 0.3em;
+    grid-column: 1 / -1;
+    width: 12em;
+}
+
+.toy-index{
+    background-color: var(--clr2bg);
+
+}
+
+.add-toy{
+    background-color:  var(--clr1bg);
+    font-weight: bold;
+    font-size: 1.3em;
+}  
+
